@@ -1,0 +1,114 @@
+
+body{
+
+  background-image: url("../img/fondo4.jpg");
+}
+
+.tablero{
+  width: 416px;
+  height: 416px;
+  border: 1px solid black;
+  margin-left: 33%;
+  margin-top: 160px;
+}
+
+.tablero div{
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  float: left;
+  background-color: DarkOliveGreen ;
+  font-size: 30;
+  text-align: center;
+
+}
+
+.patxi{
+
+  position: absolute;
+  float: left;
+  margin-left:30px;
+  margin-top: 0px;
+}
+
+.vasco{
+  position: absolute;
+  float: left;
+  margin-left:1170px;
+  margin-top: -50px;
+
+}
+
+.blason{
+
+  position: absolute;
+  float: left;
+  margin-left: 1100px;
+  margin-top: 205px;
+}
+
+h1{
+float: left;
+position: absolute;
+margin-left: 257px;
+margin-top: -150px;
+font-size: 80px;
+font-family: "VASCA";
+color: red;
+}
+
+#texto{
+
+  background-color: white;
+  position: absolute;
+  float: left;
+  margin: 3px, black;
+  margin-left: -10px;
+  margin-top: -15px;
+  width: 450px;
+  padding: 8px;
+  font-size: 16px;
+  color: red;
+  text-align: justify;
+  font-family: "VASCA";
+
+}
+
+
+button{
+
+  background-color: GhostWhite ;
+  font-family: "VASCA";
+  font-size: 16px;
+  color: DarkOliveGreen ;
+  position: absolute;
+  float: left;
+  margin-left: 625px;
+  margin-top: 46px;
+  height: 50px;
+  width: 110px;
+
+}
+
+.marcador{
+
+  width: 300px;
+  height: 120px;
+  background-image: url("../img/ikurriña2.jpg");
+  border: 3px;
+  float: left;
+  position: absolute;
+  margin-left: 1050px;
+  margin-top: -350px;
+  font-family: "VASCA";
+  color: white;
+  text-align: center;
+  font-size: 20px;
+
+}
+#contador{
+  color: Navy;
+  text-align: center;
+  font-family: "VASCA";
+  margin-top: -30px;
+}
